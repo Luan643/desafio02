@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  background: #2F2E41;
+  
+  min-height: 100vh;
+  
+}
+
+
+
+nav{
+  width: 1080px;
+  margin: 71px auto 101px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+  height: 30px;
+  color: #ffffff;
+  gap: 607px;
+  
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 48px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+li a{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: #FFF;
+  
+  font-family: 'JetBrains Mono', monospace;
+  text-decoration: none;
+}
+
+main{
+  width: 1080px;
+  margin: 0px auto 0px;
+  height: 283px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+    
+ 
+}
+
+main img{
+  width: 401px;
+  height: 283px;
+  
+}
+
+
+ h1{
+  width: 606px;
+  height: 40px;
+  color: #FFF;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin: 6px 5px 59px 0px;
+  
+}
+
+h1 span{
+  color: #00BFA6;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+section{
+  width: 604px;
+  text-align: center;
+  margin: 0px 5px 10px 0px;
+  
+  
+} 
+
+p{
+  color: #C2C2C2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  
+}
+
+p span{
+  color: #C2C2C2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+p strong{
+  color: #00BFA6;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+
+}
+
+footer{
+
+  width: 568px;
+  margin: 167px auto 0px;
+  height: 55px;
+  border-top: 1px solid #00BFA6;
+  color: #FFF;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 27px;
+}
+footer a{
+  color: #FFF;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+
+#balls{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 20px 20px;
+}
+
